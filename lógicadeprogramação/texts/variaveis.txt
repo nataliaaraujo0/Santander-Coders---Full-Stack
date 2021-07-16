@@ -26,3 +26,20 @@ ex: variavel x dentro do escopo e variavel x fora do escopo, vai dar conflito en
 
 
 let -> garante que a variavel nao escapa do escopo. 
+
+Aqui usamos var, mas vamos padronizar a partir de agora a palavra let para declaração de variáveis e a palavra const
+para declaração de constantes. O null representa uma informação vazia. Diferente de undefined, ele mostra que a variável
+foi declarada mas com valor vazio.
+
+Em JavaScript, temos um comportamento estranho das variáveis. Elas podem ser declaradas depois de utilizadas, pois elas
+são levantadas para o início do escopo. Isso se chama hoisting.
+
+Usando var variáveis não respeitam seu escopo, uma variável declarada em uma função estará disponível depois do escopo
+da função.
+
+Esses comportamentos são peculiares e diferentes de muitas linguagens, por isso padronizamos usar let em vez de var, o
+que fará com que os escopos sejam respeitados.
+
+O const impede que o valor possa ser alterado após ser iniciado, gerando um erro ao ser tentado.
+
+const pi = 3.1415;
