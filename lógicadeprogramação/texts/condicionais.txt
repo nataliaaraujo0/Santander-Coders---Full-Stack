@@ -1,0 +1,40 @@
+Operadores lógicos
+
+- Condicionais -> estruturas de decisao e é interpretado como booleano (true or false);
+
+operadores de comparação em JS:
+> -> maior 2>0 true
+>= -> maior ou igual 2>=2 true
+< -> menor 2<0 false==-> igual 1 == 'l' true
+        === -> igual em valor e tipo 1 === 'l' false
+        != -> diferente 1!=2 true
+        !== -> diferente em valor e tipo 'S' !== 5 false
+
+operadores logicos em JS:
+&& Em 2>0 && 1!==1 false
+|| Ou 2>0 || 1!==1 true
+! Nao !(1===1) false
+
+Os operadores de comparação retornam um booleano a depender do resultado da comparação. E os operados lógicos
+fazem operações sobre valores booleano. O operador && só retorna verdadeiro se as duas condições forem
+verdadeira. Enquanto para o operador || basta uma das condições ser para o resultado ser verdadeiro. O operador
+! inverte o valor lógico, ou seja, verdadeiro vira falso e vice-versa:
+
+A       B       A&&B    A||B
+false   false   false   false
+false   true    false   true
+true    false   false   true
+true    true    true    true
+
+
+
+if else -> Estrutura condicional em JS:
+let condicao = x > o;
+
+if (condicao) {
+    console.log("X é maior que zero.")
+}
+else  {
+    console.log("X é menor ou igual a zero.")
+}
+
