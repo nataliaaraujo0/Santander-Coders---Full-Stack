@@ -1,0 +1,17 @@
+Variavel :
+- Atribuir um apelido para um determinado valor, permitindo que este valor seja modificado durante o programa;
+- por debaixo dos panos, o sistema operacional solicita que sua maquina reserve um pedaço de memoria RAM para guardar
+esse valor;
+
+Vertentes de linguagens para tratar variaveis:
+* Estática -> Varivel de um tipo exclusivo de informação. ex: Variavel numerica será sempre numerica. Voce pode alterar
+o numero armazenado mas nao o tipo de variavel.
+* Dinâmica -> O tipo é inferido implicitamente e este pode ser mudado ao longo do codigo. A memoria so é alocada se a
+variavel tiver um valor. Este é o caso do JS.
+
+tipos de variaveis:
+*primitivos :
+- undefined -> nao ha tipo nem valor;
+- boolean -> verdadeiro ou falso;
+- string -> textos;
+- number -> numeros;
