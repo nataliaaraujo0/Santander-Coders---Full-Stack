@@ -38,3 +38,26 @@ else  {
     console.log("X é menor ou igual a zero.")
 }
 
+A condição deve estar entre parêntesis. Para fim de ilustração o resultado condição foi guardada em uma variável (linha
+1), porém é prática escrever diretamente dentro dos parêntesis. Caso a condição seja true o código dentro do if é
+executado, senão o do else é executado.
+
+Ainda é possível fazer estruturas que verifiquem mais de uma condição usando o else if:
+
+if(x > 0){
+    console.log("X é positivo");
+}
+
+else if(x == 0){
+    console.log("X é zero");
+}
+
+else{
+    console.log("X é negativo");
+}
+
+Operador Tenário
+
+Para atribuição condicional de valor o JavaScript possui um operador que permite fazer uma if else inline, isto é, em uma única linha. Operador tenário é representado por ?:
+
+let paridade = x % 2 === 0 ? 'par' : 'impar';
