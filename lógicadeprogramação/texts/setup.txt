@@ -1,0 +1,8 @@
+- Forma mais simples de executar codigo em Javascript é usando o navegador;
+- A tag importante para executar o código é a tag script. Onde no atributo src colocamos o endereço para o nosso arquivo
+em JavaScript
+- A tag importante para executar o código é a tag script. Onde no atributo src colocamos o endereço para o nosso arquivo
+em JavaScript. Para tanto, crie na mesma pasta um arquivo script.js com o seu código;
+- Por conveniência, enquanto estamos apenas estudando a linguagem há a opção de executar o script fora do navegador
+usando o NodeJS. Para isso, você deve instalar no seu computador o node;
+- 

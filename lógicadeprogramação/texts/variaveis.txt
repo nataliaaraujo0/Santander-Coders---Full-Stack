@@ -10,8 +10,12 @@ o numero armazenado mas nao o tipo de variavel.
 variavel tiver um valor. Este é o caso do JS.
 
 tipos de variaveis:
+
 *primitivos :
 - undefined -> nao ha tipo nem valor;
 - boolean -> verdadeiro ou falso;
 - string -> textos;
 - number -> numeros;
+*complexos :
+- function -> funcoes;
+- object -> objetos;

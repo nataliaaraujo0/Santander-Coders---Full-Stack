@@ -1,0 +1,10 @@
+- Usada para web;
+- Roda dentro dos navegadores;
+- Pode ser usada no back-end com Node.js;
+- Possui tipagem dinâmica e fraca. Mas o typescript veio para auxiliar nessa parte.
+- JavaScript trata funções como cidadãos de primeira classe, o que quer dizer que funções são valores, o que é um
+pré-requisito para fazer programação no estilo funcional.
+- Permite o uso de Orientação a objetos;
+- Hoje, entre navegador, servidor (node) e mobile (React Native) o JavaScript faz parte talvez do único stack (com
+adesão) capaz de fazer frontend, backend e mobile usando a mesma linguagem;
+- 
