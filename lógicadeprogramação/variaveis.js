@@ -11,7 +11,7 @@ var d = 5;
 //string
 var e = "texto qualquer";
 
-//undefined
+//undefined -> variavel existe mas nao tem valor
 var f; 
 var g = undefined;
 
@@ -27,6 +27,6 @@ var g = undefined;
  };
 
  //object
- var j = {};
- var l = [];
- var m = null;
+let j = {};
+let l = [];
+let m = null;

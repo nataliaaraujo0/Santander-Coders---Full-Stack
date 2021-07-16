@@ -19,3 +19,10 @@ tipos de variaveis:
 *complexos :
 - function -> funcoes;
 - object -> objetos;
+
+var # let:
+var -> espaço que ela ja existe (escopo). neste caso a variavel escapa do escopo. 
+ex: variavel x dentro do escopo e variavel x fora do escopo, vai dar conflito entre as duas. 
+
+
+let -> garante que a variavel nao escapa do escopo. 
