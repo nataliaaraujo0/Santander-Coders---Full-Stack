@@ -1,0 +1,11 @@
+Laço de repetição -> equanto (condicao) for true, faça ISSO.
+
+- Serve para evitar operaçoes repetitivas manualmente;
+While -> estrutura que executa um codigo enquanto uma condicao for true.
+ex: 
+let count = 0; 
+while(count < 100){
+    console.log(count);
+    count++;
+}
+
