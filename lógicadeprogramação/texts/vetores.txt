@@ -1,0 +1,46 @@
+vetores -> sequencia ordenada de valores. Tambem pode ser chamado de array;
+ex: 
+
+let vetor1 = [1,2,3,4,5,6,7,8,9,10];
+
+Também é possível declarar o vetor vazio e ir adicionando pela posição os elementos:
+let vetor2 = [];
+vetor2[0] = 'alucard';
+vetor2[1] = 'dracula';
+
+Além de índice numérico é possível fazer índice associativo usando strings.
+vetor['indice1'] = 'teste';
+vetor['indice2'] = 'teste2';
+
+Vetores são heterogêneos, isto é, podem guardar valores de tipos diferentes:
+let vetor = [1,2,3,'a','b','c',true,false];
+let primeiro_elemento = vetor[0];
+let quinto_elemento = vetor[4];
+
+Porém, uma boa prática é construir vetores de um único tipo de dado. Para conseguir acessar um elemento específico,
+basta passar em colchetes o índice (posição) do elemento no vetor. Sendo a contagem da esquerda para a direita,
+iniciando em 0.
+
+Percorrendo o Vetor -> Usando a estrutura de repetição for é possível percorrer todos os elementos de um vetor:
+let vetor = [1,2,3,4,5,6,7,8,9,10];
+
+for(let i = 0; i < vetor.length; i++){
+    console.log(vetor[i]);
+}
+
+O i do for vai do valor 0 até o comprimento do vetor menos um. Note que vetor.length retorna o comprimento do mesmo.
+
+const vetor = [10,20,30,40,50];
+for(let valor of vetor){
+    console.log(valor);
+}
+
+Há ainda dois laços for especiais que permitem percorrer um vetor com maior facilidade. O for-of:
+const vetor = [10,20,30,40,50];
+for(let valor of vetor){
+    console.log(valor);
+}
+
+O for-of recebe um vetor e a variável declarada vai possuir os valores dos elementos do vetor. Assim percorrendo diretamente o array inteiro.
+
+A alternativa é o for-in, onde a variável declarada assume o valor dos índices do vetor passado:
