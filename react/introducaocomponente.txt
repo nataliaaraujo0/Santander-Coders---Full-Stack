@@ -1,0 +1,3 @@
+Componente -> Tudo que será renderizado pelo React deve ser um componente. Sao partes de uma pagina, podendo ser compostos por outros componentes.
+
+Como dividir uma tela em componentes :
