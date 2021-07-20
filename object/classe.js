@@ -7,7 +7,7 @@ class Pessoa{
     }    
 };
 
-//criar de fato as pessoas -> variaveis
+//criar de fato as pessoas -> variaveis -> criar um novo objeto
 const pessoa1 = new Pessoa('natalia',25);
 pessoa1.idade = 26; //fez aniversario
 const pessoa2 = new Pessoa('Gabriella',21);
