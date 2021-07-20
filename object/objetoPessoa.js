@@ -11,7 +11,7 @@ const quadrado = {
     base:'10',
     altura:'20',
     calculaArea: function() { 
-        return this.base*this.altura
+        return this.base*this.altura // this->refenreciar atributos do objeto
     }
 };
 
