@@ -1,0 +1,6 @@
+Funções de Alta Ordem
+
+Em JavaScript, funções são cidadãos de primeira classe. O que significa que podem ser tratados como valores e salvo em
+variável. Portanto, naturalmente funções também podem ser passadas como parâmetro para uma função. Em resumo, uma função
+de alta ordem é uma função que recebe ou retorna uma função.
+
